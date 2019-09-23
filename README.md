@@ -1,24 +1,34 @@
-# RESTful API with Slim Framework (version 3.12)
+# RESTful API with the Slim Framework
 
-This is a simple RESTful API built with the SlimPHP framework and uses MySQL for storage.
+This is a simple Public RESTful API built with the Slim Framework (^3.12) and MySQL.
 
-## Version
-1.0
-
-## Installation
+## INSTALLATION
 
 Create database or import from _schema.sql
 
-Edit db/config params
+Edit src/settings params
 
 Install SlimPHP and dependencies
 
 ```sh
-$ composer require slim/slim "^3.12"
+$ composer install
 ```
 
-## API Endpints
+## ENDPOINTS
+
+- Get All Books: `GET /api/books`
+- Get One Book: `GET /api/books/{id}`
+- Create Book: `POST /api/books`
+- Update Book: `PUT /api/books/{id}`
+- Delete Book: `DELETE /api/books/{id}`
+
+
+## LOCAL SERVER
+
+Start the API by running:
+
 ```sh
-$ GET /api/books
-$ GET /api/books/{id}
+$ php -S localhost:8080
 ```
+
+inside the public folder.

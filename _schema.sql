@@ -10,9 +10,9 @@ CREATE TABLE IF NOT EXISTS `books` (
 );
 
 INSERT INTO `books` (`name`, `isbn`, `category`) VALUES
-	('PHP', 'bk001', 'Server Side'),
-	('Javascript', 'bk002', 'Client Side'),
-	('Python', 'bk003', 'Programing Language'),
-	('Git', 'bk004', 'Version-Control System'),
-	('XML', 'bk005', 'Markup Language'),
-	('HTML', 'bk006', 'Markup Language');
+	('What Doctors Dont Get to Study in Medical School', '978-8181914194', 'Medics'),
+	('The Arunachal Motorcycle Diaries', '978-1947429208', 'Motorcycles'),
+	('The Swastika Killer', '978-9385152900', 'Politics'),
+	('Think and Grow Rich', '978-8192910918', 'Personal Development'),
+	('The C Programming Language', '978-8131704943', 'Programming'),
+	('Music To Flame Lilies', '978-8183861625', 'Music');
