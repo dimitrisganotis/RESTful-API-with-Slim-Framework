@@ -2,7 +2,7 @@
 
 This is a simple Public RESTful API built with the Slim Framework (^3.12) and MySQL.
 
-## INSTALLATION
+## Installation
 
 Create database or import from _schema.sql
 
@@ -14,7 +14,7 @@ Install SlimPHP and dependencies
 $ composer install
 ```
 
-## ENDPOINTS
+## Endpoints
 
 - Get All Books: `GET /api/books`
 - Get One Book: `GET /api/books/{id}`
@@ -23,7 +23,7 @@ $ composer install
 - Delete Book: `DELETE /api/books/{id}`
 
 
-## LOCAL SERVER
+## Local Server
 
 Start the API by running:
 
